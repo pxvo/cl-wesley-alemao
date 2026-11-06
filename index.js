@@ -310,4 +310,4 @@ async function iniciarControloLimpezaDM(token, channelId, discordUser) {
         activeCleanups.delete(discordUser.id);
     }
 }
-bot.login('SEU_BOT_TOKEN_AQUI');
+bot.login(process.env.DISCORD_BOT_TOKEN);
